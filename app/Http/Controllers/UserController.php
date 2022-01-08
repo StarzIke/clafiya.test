@@ -38,7 +38,7 @@ class UserController extends Controller
             return response()->json([
                 'status' => true,
                 'access_token' => $token,
-                'user'=> $userData,
+                'user'=> $user,
                 'message' => 'User Successfully Registered'
             ], 200);
 
@@ -78,13 +78,24 @@ class UserController extends Controller
     public function logout(Request $request)
     {
         try {
-
-            $request->user()->token()->revoke();     
+            if ($request->user()) { 
+                $request->user()->tokens()->delete();
+            }  
 
             return response()->json(['status' => 1, 'message' => ' User Successfully logged out']);
         } catch (\Exception $e) {
 
             return response()->json(['status' => 0, 'message' => $e->getMessage()]);
         }
+    }
+
+    public function allUsers(){
+        $users = User::all();
+        if($users){
+            return response()->json(['status' => 1, 'users'=>$users]);
+        }else{
+            return response()->json(['status' => 0, 'users'=>$users, 'message'=>'No User Record Found']);
+        }
+        
     }
 }
