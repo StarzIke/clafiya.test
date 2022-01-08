@@ -22,7 +22,7 @@ Route::group(['prefix' => '/v1/clafiya'], function () {
     Route::post('/register',[UserController::class,'registration'])->name('api.user.register');
     Route::post('/login', [UserController::class,'login'])->name('api.user.login');
     Route::post('/logout',[UserController::class,'logout'])->name('api.user.logout');
-    Route::get('/alluser',[UserController::class,'allUsers'])->name('api.user.all');
+    Route::get('/allusers',[UserController::class,'allUsers'])->name('api.user.all');
 
     Route::any('{url?}/{sub_url?}', function () {
         return response()->json([
