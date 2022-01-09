@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Switch Template</title>
+    <title>Clafiya Test</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
@@ -70,8 +70,9 @@
 										<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">User Sign Up API</h3>
-                                    	<p class="text-sm mb-0">https://clafiya-test.herokuapp.com/api/v1/clafiya/register</p>
+                                    	<h3 class="feature-title mt-0">User Sign Up </h3>
+                                    	<p class="text-sm mb-0">POST: https://clafiya-test.herokuapp.com/api/v1/clafiya/register</p>
+                                        <p class="text-sm mb-0">BODY PARAMS: name, email, password, password_confirmation</p>
 									</div>
 								</div>
                             </div>
@@ -82,8 +83,9 @@
 										<img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">User Login API</h3>
-                                    	<p class="text-sm mb-0">https://clafiya-test.herokuapp.com/api/v1/clafiya/login</p>
+                                    	<h3 class="feature-title mt-0">User Login </h3>
+                                    	<p class="text-sm mb-0">POST: https://clafiya-test.herokuapp.com/api/v1/clafiya/login</p>
+                                        <p class="text-sm mb-0">BODY PARAMS: email, password</p>
 									</div>
 								</div>
                             </div>
@@ -94,7 +96,7 @@
 										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">Logout API</h3>
+                                    	<h3 class="feature-title mt-0">POST: Logout </h3>
                                     	<p class="text-sm mb-0">https://clafiya-test.herokuapp.com/api/v1/clafiya/logout</p>
 									</div>
 								</div>
@@ -106,7 +108,7 @@
 										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">All Users API</h3>
+                                    	<h3 class="feature-title mt-0">GET: All Users </h3>
                                     	<p class="text-sm mb-0">https://clafiya-test.herokuapp.com/api/v1/clafiya/allusers</p>
 									</div>
 								</div>
