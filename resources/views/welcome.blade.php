@@ -71,8 +71,9 @@
                                     </div>
 									<div class="feature-content">
                                     	<h3 class="feature-title mt-0">User Sign Up </h3>
-                                    	<p class="text-sm mb-0">POST: https://clafiya-test.herokuapp.com/api/v1/clafiya/register</p>
-                                        <p class="text-sm mb-0">BODY PARAMS: name, email, password, password_confirmation</p>
+                                        <h6 class="feature-title mt-0">POST Request </h6>
+                                    	<p class="text-sm mb-0">https://clafiya-test.herokuapp.com/api/v1/clafiya/register</p>
+                                        <p class="text-sm mb-0"><h6>body-param: </h6>name, email, password, password_confirmation</p>
 									</div>
 								</div>
                             </div>
@@ -84,8 +85,9 @@
                                     </div>
 									<div class="feature-content">
                                     	<h3 class="feature-title mt-0">User Login </h3>
-                                    	<p class="text-sm mb-0">POST: https://clafiya-test.herokuapp.com/api/v1/clafiya/login</p>
-                                        <p class="text-sm mb-0">BODY PARAMS: email, password</p>
+                                        <h6 class="feature-title mt-0">POST Request </h6>
+                                    	<p class="text-sm mb-0">https://clafiya-test.herokuapp.com/api/v1/clafiya/login</p>
+                                        <p class="text-sm mb-0"><h6>body-param: </h6> email, password</p>
 									</div>
 								</div>
                             </div>
@@ -96,7 +98,8 @@
 										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">POST: Logout </h3>
+                                    	<h3 class="feature-title mt-0">Logout </h3>
+                                        <h6 class="feature-title mt-0">POST Request </h6>
                                     	<p class="text-sm mb-0">https://clafiya-test.herokuapp.com/api/v1/clafiya/logout</p>
 									</div>
 								</div>
@@ -108,7 +111,8 @@
 										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
                                     </div>
 									<div class="feature-content">
-                                    	<h3 class="feature-title mt-0">GET: All Users </h3>
+                                    	<h3 class="feature-title mt-0">All Users </h3>
+                                        <h6 class="feature-title mt-0">GET Request </h6>
                                     	<p class="text-sm mb-0">https://clafiya-test.herokuapp.com/api/v1/clafiya/allusers</p>
 									</div>
 								</div>
